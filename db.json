@@ -1,17 +1,14 @@
 {
-  "array": [
-    1,
-    2,
-    3
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "boolean": true,
-  "color": "#82b92c",
-  "null": null,
-  "number": 123,
-  "object": {
-    "a": "b",
-    "c": "d",
-    "e": "f"
-  },
-  "string": "Hello World"
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
